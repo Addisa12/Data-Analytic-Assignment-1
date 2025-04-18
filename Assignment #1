@@ -1,0 +1,329 @@
+Question no: 1 (part 1) 
+write a program that  takes two number (a=15, b=4) and print their sum.
+# Define the two numbers
+a = 15
+b = 4
+
+# Calculate the sum
+sum_result = a + b
+
+# Print the sum
+print("The sum of", a, "and", b, "is:", sum_result)
+
+Question no: 1 (part 2) 
+write a program that  takes two number (a=15, b=4) and print their difference.
+# Define the two numbers
+a = 15
+b = 4
+
+# Calculate the difference
+difference_result = a - b
+
+# Print the difference
+print("The difference between", a, "and", b, "is:", difference_result)
+
+Question no: 1 (part 3) 
+write a program that  takes two number (a=15, b=4) and print their product.
+# Define the two numbers
+a = 15
+b = 4
+
+# Calculate the product
+product_result = a * b
+
+# Print the product
+print("The product of", a, "and", b, "is:", product_result)
+
+Question no: 1 (part 4) 
+write a program that  takes two number (a=15, b=4) and print their division.
+# Define the two numbers
+a = 15
+b = 4
+
+# Calculate the division
+division_result = a / b
+
+# Print the division result
+print("The division of", a, "by", b, "is:", division_result)
+
+Question no: 1 (part 5) 
+write a program that  takes two number (a=15, b=4) and print their floor division.
+# Define the two numbers
+a = 15
+b = 4
+
+# Calculate the floor division
+floor_division_result = a // b
+
+# Print the floor division result
+print("The floor division of", a, "by", b, "is:", floor_division_result)
+
+Question no: 1 (part 6) 
+write a program that  takes two number (a=15, b=4) and print their modulus.
+# Define the two numbers
+a = 15
+b = 4
+
+# Calculate the modulus
+modulus_result = a % b
+
+# Print the modulus result
+print("The modulus of", a, "and", b, "is:", modulus_result)
+
+Question no: 2 (part 1) 
+Convert the following number (num1 = 10, num2 = 5.6, num3 = 4.43) Integer to float 
+# Define the numbers
+num1 = 10
+num2 = 5.6
+num3 = 4.43
+
+# Convert num1 (integer) to float
+num1_float = float(num1)
+
+# Print the converted values
+print("num1 as float:", num1_float)
+print("num2 is already a float:", num2)
+print("num3 is already a float:", num3)
+
+Question no: 2 (part 2) 
+Convert the following number (num1 = 10, num2 = 5.6, num3 = 4.43) float to integer
+# Define the numbers
+num1 = 10
+num2 = 5.6
+num3 = 4.43
+
+# Convert num2 and num3 (floats) to integers
+num2_int = int(num2)
+num3_int = int(num3)
+
+# Print the converted values
+print("num1 is already an integer:", num1)
+print("num2 as integer:", num2_int)
+print("num3 as integer:", num3_int)
+
+Question no: 2 (part 3) 
+Convert the following number (num1 = 10, num2 = 5.6, num3 = 4.43) float to string
+# Define the numbers
+num1 = 10
+num2 = 5.6
+num3 = 4.43
+
+# Convert num2 and num3 (floats) to strings
+num2_str = str(num2)
+num3_str = str(num3)
+
+# Print the converted values
+print("num1 is already an integer:", num1)
+print("num2 as string:", num2_str)
+print("num3 as string:", num3_str)
+
+Question no: 3 (part 1) 
+fruit ["apple", "banana", "cherry", "coconut", "pineapple", "mango", "orange"] 
+print below using indexing: the first fruit
+# List of fruits
+fruits = ["apple", "banana", "cherry", "coconut", "pineapple", "mango", "orange"]
+
+# Print the first fruit using indexing
+print("The first fruit is:", fruits[0])
+
+Question no: 3 (part 2) 
+fruit ["apple", "banana", "cherry", "coconut", "pineapple", "mango", "orange"]                                                                                                   
+print below using indexing: the last fruit (negative indexing)
+# List of fruits
+fruits = ["apple", "banana", "cherry", "coconut", "pineapple", "mango", "orange"]
+
+# Print the last fruit using negative indexing
+print("The last fruit is:", fruits[-1])
+
+Question no: 3 (part 3) 
+fruit ["apple", "banana", "cherry", "coconut", "pineapple", "mango", "orange"]                                                                                                         
+print below using indexing: the fourth fruit
+# List of fruits
+fruits = ["apple", "banana", "cherry", "coconut", "pineapple", "mango", "orange"]
+
+# Print the fourth fruit using indexing
+print("The fourth fruit is:", fruits[3])
+
+Question no: 4 (part 1)                                                                              
+List Slicing:                                                                                                                                                  
+number = [10, 20, 30, 40, 50]                                                                                                                                           
+print: first three element
+# List of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Print the first three elements using slicing
+print("The first three elements are:", numbers[:3])
+
+Question no: 4 (part 2)                                                                                                                                             
+List Slicing:                                                                                                                                                  
+number = [10, 20, 30, 40, 50]                                                                                                                                           
+print: last two element
+# List of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Print the last two elements using slicing
+print("The last two elements are:", numbers[-2:])
+
+Question no: 4 (part 3)                                                                                                                                               
+List Slicing:                                                                                                                                                  
+number = [10, 20, 30, 40, 50]                                                                                                                                           
+print: print all element except the last one
+
+
+# List of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Print all elements except the last one using slicing
+print("All elements except the last one:", numbers[:-1])
+
+Question no: 4 (part 4)                                                                                                                                                
+List Slicing:                                                                                                                                                  
+number = [10, 20, 30, 40, 50]                                                                                                                                           
+print: print all element except the first one
+# List of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Print all elements except the first one using slicing
+print("All elements except the first one:", numbers[1:])
+
+Question no: 4 (part 5)                                                                                                                                              
+List Slicing:                                                                                                                                                  
+number = [10, 20, 30, 40, 50]                                                                                                                                           
+print: print the list in reverse using slicing
+# List of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Print the list in reverse using slicing
+print("The list in reverse is:", numbers[::-1])
+
+Question no: 4 (part 6)                                                                                                                                              
+List Slicing:                                                                                                                                                  
+number = [10, 20, 30, 40, 50]                                                                                                                                           
+print: print every second element
+# List of numbers
+numbers = [10, 20, 30, 40, 50]
+
+# Print every second element using slicing
+print("Every second element is:", numbers[::2])
+
+Question no: 5                                                                                                                                                          
+Add the number 10 to the end of the list using method.  nums = [1, 2, 3]     
+# List of numbers
+nums = [1, 2, 3]
+
+# Add the number 10 to the end of the list
+nums.append(10)
+
+# Print the updated list
+print("Updated list:", nums)
+
+Question no: 6                                                                                                                                              
+insert the number 99 at the index 1 using method.    nums = [1, 2, 3]
+# List of numbers
+nums = [1, 2, 3]
+
+# Insert the number 99 at index 1
+nums.insert(1, 99)
+
+# Print the updated list
+print("Updated list:", nums)
+
+Question no: 7                                                                                                                                             
+Add the element of another list [4, 5] to the original list using method       
+nums = [1, 2, 3] 
+# Original list of numbers
+nums = [1, 2, 3]
+
+# List to add
+another_list = [4, 5]
+
+# Add the elements of another_list to nums using extend() method
+nums.extend(another_list)
+
+# Print the updated list
+print("Updated list:", nums)
+
+Question no: 8                                                                                                                                              
+sort the list in ascending order using method. 
+nums = [4, 1, 3, 2]
+# List of numbers
+nums = [4, 1, 3, 2]
+
+# Sort the list in ascending order using sort() method
+nums.sort()
+
+# Print the sorted list
+print("Sorted list in ascending order:", nums)
+
+Question no: 9 (part 1)                                                                                                                                       
+A customer order several food items. Add the items to a list and then:                                                            
+order = ["burger", "fries", "coke"]                                                                                                                                                                 
+Add the new item "ice cream" using append()
+# List of food items in the order
+order = ["burger", "fries", "coke"]
+# Add the new item "ice cream" using append()
+order.append("ice cream")
+
+# Print the updated order
+print("Updated order:", order)
+
+Question no: 9 (part 2)                                                                                                                                     
+A customer order several food items.  Add the items to a list and then:                                                   
+order = ["burger", "fries", "coke"]                                                                                                                
+remove an item "biryani" using remove()
+# List of food items in the order
+order = ["burger", "fries", "coke"]
+
+# Attempt to remove "biryani" from the order using remove()
+# Check if "biryani" exists in the list before attempting to remove it
+if "biryani" in order:
+    order.remove("biryani")
+    print("Updated order:", order)
+else:
+    print('"biryani" is not in the order.')
+
+Question no: 9 (part 3)                                                                                                                                   
+A customer order several food items. Add the items to a list and then:                                                          
+order = ["burger", "fries", "coke"]                                                                                                                    
+show the final order
+# List of food items in the order
+order = ["burger", "fries", "coke"]
+
+# Print the final order
+print("Final order:", order)
+
+Question no: 10 (part 1)                                                                                                                              
+Track passengers on a bus:                                                                                                                            
+passenger = ["Ali", "Zara", "Ahmed"]                                                                                                                           
+insert a new passenger "sara" at position 2
+# List of passengers
+passenger = ["Ali", "Zara", "Ahmed"]
+
+# Insert a new passenger "Sara" at position 2
+passenger.insert(2, "Sara")
+
+# Print the updated list of passengers
+print("Updated passenger list:", passenger)
+
+Question no: 10 (part 2)                                                                                                                                 
+Track passengers on a bus:                                                                                                                                
+passenger = ["Ali", "Zara", "Ahmed"]                                                                                                                          
+remove passenger who got off "zara"
+# Remove the passenger "Zara" who got off
+passenger.remove("Zara")
+
+# Print the updated list of passengers
+print("Updated passenger list:", passenger)
+
+Question no: 10 (part 3)                                                                                                                                   
+Track passengers on a bus:                                                                                                                        
+passenger = ["Ali", "Zara", "Ahmed"]                                                                                                                 
+reverse the order to show who entered first
+# List of passengers
+passenger = ["Ali", "Zara", "Ahmed"]
+
+# Reverse the order of the list to show who entered first
+passenger.reverse()
+
+# Print the updated list of passengers in reverse order
+print("Passenger list showing who entered first:", passenger)
